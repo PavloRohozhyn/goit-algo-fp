@@ -56,10 +56,13 @@ if __name__ == '__main__':
     try:  
         # cases
         budget = 100
-        greedy_result = greedy_algorithm(items, budget)
+        g_result = greedy_algorithm(items, budget)
         dp_result = dynamic_programming(items, budget)
-        print("Greedy Algorithm Result:", greedy_result)
+        print("--------------------------------------------")
+        print("Greedy Algorithm Result:", g_result)
+        print("--------------------------------------------")
         print("Dynamic Programming Result:", dp_result)
+        print("--------------------------------------------")
     except (ValueError) as e:
         print(f'Something went wrong, {e}')
         sys.exit(0)
