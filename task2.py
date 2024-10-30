@@ -1,5 +1,7 @@
 import turtle
 import math
+import sys
+
 
 def draw_pythagoras_tree(t, length, depth, angle):
     if depth == 0:

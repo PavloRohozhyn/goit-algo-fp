@@ -2,6 +2,8 @@ import uuid
 
 import networkx as nx
 import matplotlib.pyplot as plt
+import sys
+
 
 class Node:
     def __init__(self, key, color="skyblue"):
